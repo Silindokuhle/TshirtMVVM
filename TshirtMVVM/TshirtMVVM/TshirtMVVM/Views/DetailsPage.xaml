@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="TshirtMVVM.Views.DetailsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid VerticalOptions="FillAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="PLACE YOUR ODER DETAILS" 
+               TextColor="DarkOliveGreen" 
+               FontSize="Large" 
+               FontAttributes="Bold"
+                   Grid.ColumnSpan="2"
+                       Margin="0"
+               HorizontalTextAlignment="Center"/>
+
+                <Entry Placeholder="Name"
+                   TextColor="Black" Text="{Binding Name}"
+                   Grid.Row="2"
+                  Grid.Column="0"
+                   />
+
+                <Entry Placeholder="Surname" Text="{Binding Surname}"
+                    Grid.Row="2"
+                    TextColor="Black"
+                     Grid.Column="1"  />
+
+                <Entry Placeholder="Gender" Text="{Binding Gender}"
+                   Grid.Row="4"
+                   TextColor="Black"/>
+
+                <Entry Placeholder="T-Shirt Size" Text="{Binding T_shirtsize}"
+                   Grid.Row="4"
+                   TextColor="Black"
+                       Grid.Column="1"/>
+                <Entry Placeholder="T-Shirt Color" Text="{Binding T_shirtcolor}"
+                   Grid.Row="6"
+                   TextColor="Black"/>
+
+
+                <DatePicker 
+                   Grid.Row="6"
+                    Grid.Column="1"
+                   TextColor="Black" Date="{Binding Dateoforder}" />
+
+                <Entry Placeholder="Shipping Address" Text="{Binding ShippingAddress}"
+                   Grid.Row="7"
+                   TextColor="Black"
+                       HorizontalTextAlignment="Center"
+                       Grid.ColumnSpan="2"/>
+
+                <Button Text="SAVE" 
+                        Clicked="OnSaveClicked"
+                    FontSize="Small"
+                    FontAttributes="Bold"
+                    Margin="20,90"
+                    Grid.Row="8"
+                    Grid.Column="0"/>
+
+                <Button Text="CANCEL"
+                    Clicked="cancel_clicked"
+                    FontSize="Small"
+                    FontAttributes="Bold"
+                    Margin="20,90"
+                         Grid.Row="8"
+                    Grid.Column="1"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

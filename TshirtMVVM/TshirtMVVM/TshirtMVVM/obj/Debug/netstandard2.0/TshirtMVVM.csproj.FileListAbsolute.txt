@@ -1,0 +1,12 @@
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\TshirtMVVM.csprojAssemblyReference.cache
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\TshirtMVVM.AssemblyInfoInputs.cache
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\TshirtMVVM.AssemblyInfo.cs
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\TshirtMVVM.dll
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\TshirtMVVM.pdb
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\bin\Debug\netstandard2.0\TshirtMVVM.deps.json
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\bin\Debug\netstandard2.0\TshirtMVVM.dll
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\bin\Debug\netstandard2.0\TshirtMVVM.pdb
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\DetailsPage.xaml.g.cs
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
