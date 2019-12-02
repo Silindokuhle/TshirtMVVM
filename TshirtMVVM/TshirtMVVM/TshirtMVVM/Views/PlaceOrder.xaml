@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="TshirtMVVM.Views.PlaceOrder"
+             BackgroundImage="images">
+
+    <StackLayout>
+        <FlexLayout>
+            <Label Text="Welcome "   Margin="0,20,0,0" FontSize="40" />
+            <Label Text="{Binding Name}" Margin="0,20,0,0" FontSize="40" />
+        </FlexLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+
+            </Grid.RowDefinitions>
+            <Label Text="Name"  Grid.Row="1" Grid.Column="0"/>
+            <Entry Text="{Binding Name}" Grid.Row="2" Grid.Column="0"/>
+
+            <Label Text="Surname"  Grid.Row="1" Grid.Column="1"/>
+            <Entry Text="{Binding Surname}" Grid.Row="2" Grid.Column="1"/>
+
+            <Label Text="Gender" Grid.Row="3" Grid.Column="0"/>
+            <Entry Text="{Binding Gender}" Grid.Row="4" Grid.Column="0"/>
+
+            <Label Text="T_shirtsize" Grid.Row="3" Grid.Column="1"/>
+            <Entry Text="{Binding T_shirtsize}" Grid.Row="4" Grid.Column="1"/>
+
+            <Label Text="T_shirtcolor" Grid.Row="5" Grid.Column="0"/>
+            <Entry Text="{Binding T_shirtcolor}" Grid.Row="6" Grid.Column="0"/>
+
+            <Label Text="Dateoforder" Grid.Row="5" Grid.Column="1"/>
+            <Entry Text="{Binding Dateoforder}" Grid.Row="6" Grid.Column="1"/>
+
+            <Label Text="ShippingAddress" Grid.Row="7" Grid.ColumnSpan="2"/>
+            <Entry Text="{Binding ShippingAddress}" Grid.Row="8" Grid.ColumnSpan="2"/>
+
+            <Button Text="Save Changes" Command="{Binding SaveCommand}"  Grid.Row="9" Grid.Column="0"
+                        />
+
+            <Button Text="View Map" Command="{Binding ViewMapCommand}" 
+                    Grid.Row="9" Grid.Column="1" />
+
+
+            <Button Text="Confirm Order" Command="{Binding ConfirmOrderCommand}"  
+                    Grid.Row="10" Grid.ColumnSpan="2"/>
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </StackLayout>
+</ContentPage>

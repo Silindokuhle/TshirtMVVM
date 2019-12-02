@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using TshirtMVVM.Models;
 using Xamarin.Forms;
 
 namespace TshirtMVVM.Views
@@ -21,22 +22,22 @@ namespace TshirtMVVM.Views
             var tshirt = new Tshirt();
             BindingContext = tshirt;
         }
-        private async void OnSaveClicked(object sender, EventArgs e)
-        {
-            var tshirt = (Tshirt)BindingContext;
+        //private async void OnSaveClicked(object sender, EventArgs e)
+        //{
+        //    var tshirt = (Tshirt)BindingContext;
 
-            var location = tshirt.ShippingAddress;
-            var myadd = "Makhaza Cape Town";
-            var locate = await Geocoding.GetLocationsAsync(myadd);
-            Location finalLocate = locate?.FirstOrDefault();
-            var addPos = string.Empty;
-            if (finalLocate != null)
-            {
-                addPos = $"Latitude: {finalLocate.Latitude}, Longitude: {finalLocate.Longitude}";
-            }
-            tshirt.AddressPosition = addPos;
-            await App.Database.SaveItemAsync(tshirt);
-            await Navigation.PushAsync(new OrderPage());
-        }
+        //    var location = tshirt.ShippingAddress;
+        //    var myadd = "Makhaza Cape Town";
+        //    var locate = await Geocoding.GetLocationsAsync(myadd);
+        //    Location finalLocate = locate?.FirstOrDefault();
+        //    var addPos = string.Empty;
+        //    if (finalLocate != null)
+        //    {
+        //        addPos = $"Latitude: {finalLocate.Latitude}, Longitude: {finalLocate.Longitude}";
+        //    }
+        //    tshirt.AddressPosition = addPos;
+        //    await App.Database.SaveItemAsync(tshirt);
+        //    await Navigation.PushAsync(new OrderPage());
+        //}
     }
 }

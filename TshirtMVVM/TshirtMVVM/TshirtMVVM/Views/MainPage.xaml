@@ -4,8 +4,33 @@
              x:Class="TshirtMVVM.Views.MainPage"
              Title="{Binding Title}">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
-    </StackLayout>
 
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <StackLayout BackgroundColor="DeepPink">
+
+            <Label Text="Madam Slee Tees"
+                   TextColor="White"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="50"/>
+
+            <Image Source ="tshirt"
+               Margin="-20"/>
+
+            <Button Text="Place Order" Command="{Binding PlaceOrder}"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                   Margin="30"/>
+           
+
+            <Button Text="View Order" Command="{Binding ViewOrder}"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                   
+                    Margin="30"/>
+
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

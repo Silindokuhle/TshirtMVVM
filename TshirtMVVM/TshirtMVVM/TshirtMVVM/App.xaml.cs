@@ -1,6 +1,8 @@
 ﻿using Prism;
 using Prism.Ioc;
+using TshirtMVVM.Services.Interfaces;
 using TshirtMVVM.ViewModels;
+using TshirtMVVM.ViewModels.TshirtDatabases;
 using TshirtMVVM.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -28,10 +30,13 @@ namespace TshirtMVVM
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<IDatabase, TshirtDatabase>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<DetailsPage, DetailsPageViewModel>();
             containerRegistry.RegisterForNavigation<OrderPage, OrderPageViewModel>();
+            containerRegistry.RegisterForNavigation<PlaceOrder, PlaceOrderViewModel>();
         }
     }
 }

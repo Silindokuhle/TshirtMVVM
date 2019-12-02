@@ -4,10 +4,11 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="TshirtMVVM.Views.OrderPage">
-    
+
+
     <ContentPage.Content>
         <StackLayout>
-            <ListView Margin="20" ItemsSource="{Binding Orders}" HasUnevenRows="True" ItemTapped="ListView_ItemTapped">
+            <ListView Margin="20" ItemsSource="{Binding Orders}" HasUnevenRows="True" ItemTapped="ListView_ItemTapped" Command="{Binding Item}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

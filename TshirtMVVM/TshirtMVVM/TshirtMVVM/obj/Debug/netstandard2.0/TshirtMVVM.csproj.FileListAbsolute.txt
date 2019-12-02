@@ -10,3 +10,4 @@ C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\bin\Debug\netstandard2.0\
 C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\bin\Debug\netstandard2.0\TshirtMVVM.pdb
 C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\DetailsPage.xaml.g.cs
 C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM\obj\Debug\netstandard2.0\Views\PlaceOrder.xaml.g.cs
