@@ -18,9 +18,13 @@ android.support.v7.widget.RecyclerView;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMV
 android.support.v7.widget.Toolbar;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
+cache-path;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 FrameLayout;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
+paths;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Debug\90\res\values\styles.xml
 set;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromleft.xml
 set;C:\Xamarin\TshirtMVVM\TshirtMVVM\TshirtMVVM\TshirtMVVM.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromright.xml
